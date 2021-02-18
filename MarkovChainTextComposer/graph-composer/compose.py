@@ -38,7 +38,7 @@ def compose(g, words, length=50):
     return composition
 
 def main():
-    words=get_words_from_text("texts/hp_sorcerer_stone.txt")
+    words=get_words_from_text("texts/hp_sorcerer_stone.txt") #replace hp_sorcerer_stone.txt with your text file
 
     # for song in os.listdir('songs/{}'.format(artist)):
         # if song == '.DS_Store':
